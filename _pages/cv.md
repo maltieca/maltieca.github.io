@@ -1,10 +1,12 @@
 ---
-layout: archive
 title: "CV"
+layout: archive
 permalink: /cv/
-author_profile: true
-redirect_from:
-  - /resume
+output:
+  html_document:
+    df_print: paged
+redirect_from: /resume
+author_profile: yes
 ---
 
 {% include base_path %}
@@ -56,4 +58,6 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams [teams](#Buttons){: .btn--research}
+
+
